@@ -5,7 +5,7 @@
 function mostrar()
 {
       var nombre;
-      nombre= prompt ("Modo diablooo"); 
+      nombre= prompt ("¿Cual es tu nombre?"); 
       document.getElementById('elNombre').value=nombre;  
 }
 
