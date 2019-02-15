@@ -7,9 +7,9 @@ function mostrar()
     edad= document.getElementById('edad').value;
     edad= parseInt(edad);
    
-    if (edad>=18) 
+    else (edad>18) 
             {
-               if (edad<=12)
+               if (edad<13)
                {
                	mensaje="No es adolecente";
                }
