@@ -5,22 +5,16 @@ en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
 
-	var primerNumero;
-	var total;
-	var mostrarAumento
+	var ingreseSueldo;
+	var Aumento;
 	
-
-	primerNumero= sueldo.value;
-	total= resultado.value;
-
 	primerNumero=document.getElementById('sueldo').value;
-	total=document.getElementById('resultado').value;
-
-	primerNumero= parseInt(primerNumero);
-    total= parseInt(total);
-
-    mostrarAumento= ((10*primerNumero)/100);
 	
-	RESULTADO(primerNumero+mostrarAumento);
+	primerNumero= parseInt(primerNumero);
+	
+  
+    Aumento= (10*primerNumero)/100;
+	
+	mostrarAumento(primerNumero+mostrarAumento);
  
 }
