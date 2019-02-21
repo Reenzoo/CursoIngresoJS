@@ -13,8 +13,8 @@ function mostrarAumento()
 	primerNumero= parseInt(primerNumero);
 	
   
-    Aumento= (10*primerNumero)/100;
+    Aumento= ((10*primerNumero)/100)+primerNumero;
 	
-	mostrarAumento(primerNumero+mostrarAumento);
+	aumento= resultado.value;
  
 }
