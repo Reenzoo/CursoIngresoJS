@@ -6,7 +6,7 @@ function mostrar()
 	var precio4;
 	var mensaje;
 	var desc;
-	var aumen;
+	var resultado;
 	
 
 	precio1= prompt("Ingrese el primer precio");
@@ -57,12 +57,17 @@ function mostrar()
     		{
     			if (precio1<=50 && precio2<=50 && precio3<=50 && precio4<=50)
     			{
-    				aumen=15;
+    				desc=15;
     			}
     		} 
     	}
 	
-	alert ((precio1*desc/100)+precio1);
+	resultado=(precio1*desc/100);
+	resultado=(precio2*desc/100);
+	resultado=(precio3*desc/100);
+	resultado=(precio4*desc/100);
+
+	alert(resultado);
 
 
 }
