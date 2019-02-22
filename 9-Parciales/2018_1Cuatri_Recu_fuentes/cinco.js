@@ -8,7 +8,7 @@ function mostrar()
 	metodoDePago= prompt("Metodo de pago");
 
 
-	switch (hotelTrouss)
+	switch (metodoDePago)
 	{
 		case "Visa"
 			mensaje="Tenes un 10% de descuento";
@@ -23,13 +23,9 @@ function mostrar()
 			mensaje="tenes un 20% de descuento";
 			break;
 
+}
 
 
-
-
-
-
-	}
 
 	
 
