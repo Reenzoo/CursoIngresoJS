@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1553559060 source:d:\contreras 2.0\clase 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"contreras.h"
+
+1553559060 source:d:\contreras 2.0\clase 2\contreras.c
+	"contreras.h"
+
+1553559112 d:\contreras 2.0\clase 2\contreras.h
+
